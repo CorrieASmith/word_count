@@ -1,5 +1,6 @@
 require('rspec')
 require('word_count')
+
 describe('String#counter') do
 
   it('receives user input and counts how many words are repeated in the sentence') do
