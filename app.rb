@@ -9,6 +9,7 @@ get('/') do
 end
 
 get('/word_count') do
-  complete_sentence = params.fetch('word')
+  my_word = params.fetch('my_word')
+  #@my_word = String.new(my_word)
   erb(:word_count)
 end
